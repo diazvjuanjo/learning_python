@@ -22,7 +22,7 @@ while True:
   computer_option = random.choice(options)
   
   if not user_option in options:
-    print("Es piedra papel o tijera, gilipollas, elige bien")
+    print("Es piedra papel o tijera, elige bien")
     continue
   #Solo sumamos una ronda cuando es opción válida  
   round += 1
